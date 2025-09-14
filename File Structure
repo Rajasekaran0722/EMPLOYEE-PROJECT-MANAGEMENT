@@ -1,0 +1,25 @@
+employee-productivity-tracker/
+│── src/
+│   └── main/
+│       └── java/
+│           └── com/
+│               └── tracker/
+│                   ├── EmployeeProductivityTrackerApplication.java   # Main Class
+│                   ├── controller/
+│                   │   └── TaskController.java
+│                   ├── model/
+│                   │   ├── Employee.java
+│                   │   └── Task.java
+│                   ├── repository/
+│                   │   ├── EmployeeRepository.java
+│                   │   └── TaskRepository.java
+│                   └── service/
+│                       └── TaskService.java
+│       └── resources/
+│           ├── application.properties
+│           └── templates/  (for HTML if using Thymeleaf)
+│               ├── dashboard.html
+│               ├── tasks.html
+│               └── login.html
+│── pom.xml   # Maven Dependencies
+│── README.md # Documentation
